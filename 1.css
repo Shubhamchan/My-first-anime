@@ -1,0 +1,179 @@
+
+.hi{
+    background-color:sandybrown;
+    height:240px;
+    width:200px;
+    border-radius:50%;
+    border-left:15px solid black;
+    border-right:15px solid black;
+    border-top:25px solid black;
+    position:relative;
+    left:40%;
+
+}
+.no{
+    display:flex;
+    gap:50%;
+}
+.li{
+    height:20px;
+    width:20px;
+    border-radius:20px;
+    background-color:brown;
+    position:absolute;
+    left:15%;
+    top:30%;
+}
+.ri{
+    height:20px;
+    width:20px;
+    border-radius:20px;
+    background-color:brown;
+    position:absolute;
+    left:70%;
+    top:30%;
+}
+.tilak{
+    height:40px;
+    width:5px;
+    border-radius:40%;
+    border-top:1px solid red;
+    border-left:1px solid red;
+    border-right:1px solid red;
+    background-color:red;
+    position:absolute;
+    left:92px;
+    top:35px;
+}
+.mouth{
+    background-color:rgb(196, 24, 24);
+    height:20px;
+    width:70px;
+    border-radius:50%;
+    position:absolute;
+    left:32%;
+    top:70%;
+}
+.neck{
+   background-color:sandybrown;
+   height:50px;
+   width:50px;
+   position:relative;
+   left:45.7%;
+   bottom:10px;
+}
+.bd{
+    background-color:brown;
+    height:250px;
+    width:200px;
+    border-radius:60px;
+    position:absolute;
+    left:40.4%;
+    top:19em;
+}
+.but{
+    height:200px;
+    width:5px;
+    background-color:yellow;
+    border:solid black;
+    position:absolute;
+    left:50%;
+
+}
+.moch{
+    background-color: black;
+    height:10px;
+    width:55px;
+    border-radius:30%;
+    position:absolute;
+    top:63%;
+    left:35.2%;
+}
+.pant{
+    background-color:blue;
+    height:100px;
+    width:200px;
+    position:relative;
+    top:11rem;
+    left:40.3%;
+}
+.line{
+    height:90px;
+    width:1px;
+    background-color:black;
+    position:relative;
+    left:47%;
+    top:5.4rem;
+}
+.left{
+    height:100px;
+    width:30px;
+    background-color: sandybrown;
+    position:relative;
+    left:43%;
+    top:83px;
+}
+.right{
+    height:100px;
+    width:30px;
+    background-color: sandybrown;
+    position:relative;
+    left:49%;
+    top:-37px;
+}
+.leftshoe{
+    height:20px;
+    width:35px;
+    border-radius:15px;
+    background-color:red;
+    position:relative;
+    left:42.8%;
+    top:80px;
+}
+.rightshoe{
+    height:20px;
+    width:35px;
+    border-radius:15px;
+    background-color:red;
+    position:relative;
+    left:48.8%;
+    top:-40.9px;
+}
+.lefthand{
+    height:150px;
+    width:20px;
+    border-radius: 10px;;
+    background-color:sandybrown;
+    transform: rotate(10deg);
+    position: relative;
+    left:-15px;
+    top:30px;
+}
+.righthand{
+    height:150px;
+    width:20px;
+    border-radius: 10px;;
+    background-color:sandybrown;
+    transform: rotate(-10deg);
+    position: relative;
+    left:40%;
+    top:30px;
+}
+.road{
+    height:500px;
+    background-color:orange;
+    position:relative;
+    top:-41px;
+}
+.move{
+    background-repeat: repeat-x;
+    animation-duration:10s; 
+    animation-name:road;
+    animation-duration:10minute;
+}
+@keyframes road{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
